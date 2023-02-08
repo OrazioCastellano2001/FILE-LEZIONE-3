@@ -1,0 +1,225 @@
+/* modificare il logo */
+#logo {
+    height: 80x;
+    width: 120px;
+    display: block;
+}
+
+/* imposto il backogound e il padding per l'header  */
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,40,121,1) 37%, rgba(0,212,255,1) 100%);
+    background-color: darkblue;
+    position: absolute;
+    width: 100%;
+    padding: 3.5 em;
+    text-align: center;
+    position: fixed
+}
+
+/* imposto l'immagine di sfondo per il banner*/
+#banner {
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px;
+}
+
+/* imposto le proprietà del titolo per il banner */
+#banner h1 {
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+/* imposto le proprietà per il p  */
+#banner p {
+    margin-bottom: 1.75em;
+}
+
+/* imposto il padding per le sezioni */
+section {
+    padding: 3em 1.3em 2em;
+    text-align: center;
+}
+
+/* imposto le proprietà per il bottone del banner */
+#banner .pulsante {
+    font-size: 0.9rem;
+    background-color: orange;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2 {
+    color: rgb(40, 127, 127);
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+}
+
+#banner p {
+    color: rgba(19, 19, 237);
+}
+
+#chisiamo div {
+    margin: 5%;
+    display: flex;
+    flex: center;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#citazione {
+    background-color: orange;
+    color: white;
+}
+
+#citazione h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 0.85em;
+    margin: 1.7em 0;
+}
+
+figcaption {
+    font-size: .7em;
+}
+
+cite {
+    font-size: 1.5em;
+}
+
+/* dimensionamento div principale */
+.card1 {
+    margin: 2em;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* dimensionamento della figura */
+.cards {
+    border: solid 2px #dee1e3;
+    margin: 2em;
+    border-radius: 8px;
+    box-shadow: 10px 15px 20px rgb(74, 67, 67);
+    background-color: rgb(181, 125, 21);
+
+}
+
+.cards img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card1 h3 {
+    color: rgba(124, 82, 6, 0.915);
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.linkfooter {
+    text-decoration: none;
+    color: white;
+}
+/* #titolochisiamo {
+    display: absolute;
+    margin-right: 200px;
+    margin-left: 200px;
+} */
+/*Plusanti navbar*/
+nav a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    width: 100px;
+    border-style: 1 px solid yellow; 
+    border-radius: 5px;
+}
+
+#navbar{
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    margin-right: 10px;
+    bottom: 10px 
+}
+/* media query che serve per personbalizzare il contenuto del css in base alla risoluzione dello schermo */
+@media screen and (max-width:320px) {
+
+    header {
+        background-color: chartreuse;
+        padding: 1.5 em;
+    }
+    #logo {
+        display: none;
+    }
+    #chisiamo div {
+        display: block;
+    }
+    
+}
+
+/* media query per desktop tre card insieme  */
+@media screen and (min-width:898px) {
+    #card {
+        display: flex;
+    }   
+}
+/* media query per smartphone */
+@media screen and (max-width: 500px) {
+    .info {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://www.w3schools.com/Css/css3_mediaqueries_ex.asp */
+
